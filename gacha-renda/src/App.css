@@ -1,0 +1,123 @@
+body {
+  margin: 0;   /* デフォルトの余白を消す */
+  padding: 0;  /* 念のためパディングも消す */
+}
+
+
+
+/* 全体のコンテナ */
+#gatya-container {
+    text-align: center;
+    height: 100vh;
+}
+/* タイトル */
+#title {
+    font-size: 40px;
+    margin-top: 0;
+    padding-top: 100px;
+}
+
+/* 説明 */
+#explain{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+/* ボタン */
+#btn {
+    background: linear-gradient(135deg, #ffbb00, #e6ff07);
+    border: solid 0.2px rgb(126, 129, 73);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    transition: 0.1s;
+    margin-top: 40px;
+    box-shadow: #00000027 0px 4px 4px;
+}
+#btn:active {
+    transform: translateY(5px);
+}
+#btn:hover {
+    cursor: pointer;
+    background: linear-gradient(135deg, #ffa135, #fffb07);
+}
+
+/* もう一度 */
+#next {
+    border: solid 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 4px;
+    margin-left: 20px;
+}
+#next:active {
+    transform: translateY(2px);
+}
+#next:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+
+
+/* 時間 */
+progress {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 1000px;
+}
+progress::-webkit-progress-value {
+    background-color: rgb(1, 202, 135);
+}
+progress::-webkit-progress-bar {
+    background-color: rgb(247, 244, 244);
+}
+
+#countmessage {
+    font-size: 25px;
+}
+#countdown {
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+/* 結果 */
+#result {
+    font-size: 30px;
+    font-weight: bold;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+#s {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+#score {
+    color: red;
+    font-weight: bold;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#chara {
+    font-size: 100px;
+}
+
+/* 前回のスコア */
+#maescore {
+    color: red;
+}

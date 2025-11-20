@@ -1,1 +1,9 @@
-# 26hackathon-fukuoka-1-react-ts
+# 第一回福岡ハッカソンリメイク
+
+## ガチャ連打
+第一回福岡ハッカソンで作った「ガチャ連打」をReact + TypeScriptでリメイクしたプロジェクトです。
+
+## 変更点
+- Vanilla JS→React+TypeScript
+- 状態管理をReact Hooksで実装
+- 型定義を導入
